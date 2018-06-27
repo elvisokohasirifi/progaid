@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login - progaid</title>
+	<meta charset="utf-8" lang="en">
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<div id="mainsign">
+		<img src="logo.png" width="100px" height="100px" class="center">
+		<form enctype="multipart/form-data" onsubmit="return validate()" id="insertform">
+			<table>
+				<tr>
+					<td>Name</td>
+					<td><input type="text" name="name" required="required"></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" name="email" required="required"></td>
+				</tr>
+				<tr>
+					<td>Picture</td>
+					<td>
+						 <input type="file" name="image" required="required" accept="image/*" onchange="preview(event)" id="imageget">
+						 <br>
+						 <img src="" width="250px" height="200px" id="view" style="display: none" required="required">
+					</td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="password" name="password" required="required"></td>
+				</tr>
+			</table>
+			<input type="submit" name="submitbut" value="Sign Up">
+			<p class="small">Have an account already? <a href="index.php">Log In</a></p>
+		</form>
+	</div>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="mainjs.js"></script>
+</body>
+</html>

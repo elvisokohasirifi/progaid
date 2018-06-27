@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome - progaid</title>
+	<meta charset="utf-8" lang="en">
+	<link rel="stylesheet" type="text/css" href="css1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div id="smallleft">
+			<p class="stylish"><img src="logo.png" width="40px" height="40px" align="left"> pro<span class="rotate">g</span>aid</p>
+		</div>
+		<div id="smallright">
+			<p id="userpos"><input type="search" name="" placeholder="Search..."></p>
+		</div>
+	</header>
+	<div id="left">
+		<a href="" style="padding-left: 0px"><img src="trial.jpg" width="40px" height="40px" align="left" style="border-radius: 100%; margin-right: 5px;"><span>Samuel Agyemang Prempeh</span></a>
+		<a href="" class="selected"><i class="fa fa-home"></i>Home</a>
+		<a href=""><i class="fa fa-user"></i>Profile</a>
+		<a href=""><i class="fa fa-question"></i>My Questions</a>
+		<a href=""><i class="fa fa-tags"></i>Subscriptions</a>
+		<a href=""><i class="fa fa-group"></i>Groups</a>
+		<a href=""><i class="fa fa-envelope"></i>Inbox</a>
+		<a href=""><i class="fa fa-sign-out"></i>Log out</a>
+	</div>
+	<div id="right">
+		<div class="contenta">
+			<form>
+			  <div class="headera">
+			    <p>Ask a question</p>
+			  </div>
+			  <div class="body">
+			    <textarea rows="6" cols="58" name="status" placeholder="What is your question?"></textarea>
+			  </div>
+			  <div class="footer">
+			  	<input type="button" name="code" value="Add Code">
+			    <input type="button" id="loadFileXml" value="Attach Picture" onclick="document.getElementById('file').click();" />
+				<input type="file" style="display:none;" id="file" name="file"/>
+				<input type="submit" name="poststatus" value="Post">
+			  </div>
+		  </form>
+
+		  <div id="questions">
+		  	<!-- retrived from https://codepen.io/khoipro/pen/vNejGo -->
+			<div class="facebook-box">
+			    <div class="content">
+			      <div class="row header">
+			        <div class="avatar">
+			          <img src="trial.jpg" alt="" width="40px" height="40px" />
+			        </div>
+			        <div class="name">
+			          <h5><a href="http://khoipro.com" target="_blank">Sir Elvis</a></h5>
+			          <span class="sub">10 January 2018 at 15:00</span>
+			        </div>
+			      </div>
+			      <div class="row text">
+					Can someone please help me debug my code. Please find a screenshot of it below...Can someone please help me debug my code. Please find a screenshot of it below...
+			      </div>
+			      <div class="row thumbnail">
+			        <img src="try.png" alt="" class="hund" />
+			      </div>
+			      <hr />
+			  </div>
+			  <div class="footer">
+			    <a href="#">6 people</a> like this.
+			    <div class="row">
+			      <div class="small-avatar">
+			        <img src="back4.jpg" alt="" class="hund"/>
+			      </div>
+			      <div class="write-comment">
+			        <input type="text" placeholder="Write your comment...">
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+		<!-- retrived from https://codepen.io/khoipro/pen/vNejGo -->
+		</div>
+	</div>
+		
+	<div class="rightmost">
+		<h6>Feed from groups</h6>					
+	</div>	
+</body>
+</html>

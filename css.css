@@ -1,0 +1,77 @@
+@font-face { font-family: Euphorigenic; src: url('euphorigenic.ttf'); } 
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: Tahoma;
+}
+
+body{
+	background: url("back4.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#main{
+	width: 22%;
+	padding: 2% 3%;
+	border: 2px solid #a2a2a2;
+	border-radius: 5px;
+	position: absolute;
+	top: 130px;
+	left: 500px;
+	background-color: rgba(0,20,0,0.5);
+	color: white;
+	text-align: center;
+}
+
+td{
+	padding: 0px 20px 30px 0px;
+	text-align: left;
+	margin-left: 5px;
+}
+
+input{
+	padding: 5px;
+	font-size: 15px;
+}
+
+input[type=submit]{
+	width: 90%;
+	font-size: 15px;
+	border: 1px solid #4CAF50;
+	background-color: #4CAF50; 
+	color: white;
+	padding: 8px 5px;
+	border-radius: 3px;
+}
+
+
+.center{
+	padding-bottom: 20px;
+}
+
+.small{
+	font-size: 12px;
+}
+
+.small a{
+	color: #4CAF50;
+}
+
+input[type=file]{
+	width: 90%;
+}
+
+#mainsign{
+	width: 22%;
+	padding: 2% 3%;
+	border: 2px solid #a2a2a2;
+	border-radius: 5px;
+	position: absolute;
+	top: 80px;
+	left: 500px;
+	background-color: rgba(0,20,0,0.5);
+	color: white;
+	text-align: center;
+}
